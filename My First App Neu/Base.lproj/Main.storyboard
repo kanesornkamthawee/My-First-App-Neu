@@ -48,6 +48,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="20" y="649" width="158" height="69"/>
                                 </variation>
+                                <connections>
+                                    <action selector="decreaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ASC-fS-9f4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TN3-s4-scK">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -59,6 +62,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="222" y="649" width="158" height="69"/>
                                 </variation>
+                                <connections>
+                                    <action selector="increaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4my-0b-Eqf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -79,6 +85,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="numberlabel" destination="KUg-4Y-Nrp" id="rrL-bS-KFu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
